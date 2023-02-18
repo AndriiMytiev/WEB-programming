@@ -1,12 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lab1</title>
+    <title>Інтернет-магазин - Головна сторінка</title>
+    <style>
+        table, td, th {
+            border: 2px solid blanchedalmond;
+        }
+
+        td {
+            padding: 15px
+        }
+
+        #register{
+            margin-top: 10px;
+            padding: 10px;
+            border: 2px solid rosybrown;
+        }
+    </style>
 </head>
+
 <body>
-    <h1>Lab1</h1>
+    <h2>
+        Товари
+    </h2>
+    <table>
+        <tr>
+            <th>
+                Назва
+            </th>
+            <th>
+                Зображення
+            </th>
+            <th>
+                Характеристики
+            </th>
+        </tr>
+        <tr>
+            <td>
+                Apple IPhone 14 Pro Max
+            </td>
+            <td>
+                <img width="200px"
+                    src="https://i.citrus.world/imgcache/size_800/uploads/shop/7/d/7d4e266a9aa449773a69a0a6a1e164f0.jpg"
+                    alt="Apple Iphone 14 Pro Max Photo">
+            </td>
+            <td>
+                <ul>
+                    <li>
+                        Вбудована пам'ять: 256 ГБ
+                    </li>
+                    <li>
+                        Назва процесора: Apple A16 Bionic
+                    </li>
+                    <li>
+                        Основна камера: 48 Мп + 12 Мп + 12 Мп + 12 Мп
+                    </li>
+                </ul>
+            </td>
+        </tr>
+    </table>
+    <form name="register" id="register">
+        <h4>
+            Реєстрація
+        </h4>
+        <label for="name">
+            Ім'я:
+        </label>
+        <input type="text" name="name" id="name">
+
+        <label for="lastname">
+            Прізвище:
+        </label>
+        <input type="text" name="lastname" id="lastname">
+
+        <input type="submit" value="Зареєструватися">
+    </form>
 </body>
+
 </html>
