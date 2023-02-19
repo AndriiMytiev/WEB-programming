@@ -4,6 +4,10 @@
     padding: 0;
 }
 
+body {
+    background-color: #eb8a3e;
+}
+
 /* Header */
 .header {
     display: flex;
@@ -28,17 +32,147 @@
     font-size: 20px;
 }
 
-.header .team {
+.team {
     display: flex;
     text-align: center;
     font-size: 16px;
 }
 
-.header .team div:nth-child(1),
-.header .team div:nth-child(2){
+.team div:nth-child(1),
+.team div:nth-child(2){
     margin-right: 10px;
 }
 
-.header .team img {
+.team img {
     width: 150px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.navigation {
+    padding: 20px;
+    background-color: #eb8a3e;
+}
+
+.navigation .tab-nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.navigation .tab-nav a {
+    text-decoration: none;
+    color: #000;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: #ebb582;
+    box-sizing: border-box;
+    max-width: 140px;
+    line-height: 1.2;
+}
+
+.tab-pane .lab-nav a {
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: #000000;
+    box-sizing: border-box;
+    max-width: 300px;
+    margin-bottom: 15px;
+    background-color: #eb8a3e;
+}
+
+.navigation .tab-nav a.active,
+.lab-nav a.active{
+    background-color: rgb(220, 173, 85);
+    color: #fff; !important;
+    transition: 0.2s;
+}
+
+.container {
+    padding: 10px;
+    background-color: #eb8a3e;
+}
+
+.tabs-content {
+    background-color: #ebb582;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.tabs-content .tab-pane {
+    min-height: 400px;
+
+}
+
+.tabs-content .toBeContinued {
+    justify-self: center;
+    align-self: center;
+}
+
+.tabs-content .tab-pane,
+.lab-content .lab-pane{
+    display: none;
+}
+
+.tabs-content .active {
+    display: flex;
+    justify-content: center;
+}
+
+.lab-content .active {
+    display: block;
+}
+
+.tab-pane .lab-nav {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+.lab-content {
+    width: 70%;
+}
+
+.lab-pane .topic {
+    font-size: 24px;
+    margin: 20px 0;
+    line-height: 1.5;
+}
+
+.lab-pane .goal {
+    font-size: 20px;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+.lab-pane span {
+    font-weight: bold;
+}
+
+.lab-pane .git-link {
+    margin-bottom: 15px;
+}
+
+.lab-pane .description {
+    margin: 15px 0;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.lab-pane .code-images {
+    display: flex;
+    flex-direction: column;
+}
+
+.lab-pane .code-images img {
+    width: 100%;
+}
+
+.lab-pane .team {
+    width: 80%;
+    margin: 50px auto 0;
+    display: flex;
+    justify-content: space-around;
 }
