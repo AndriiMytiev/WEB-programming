@@ -131,6 +131,10 @@ body {
     flex-direction: column;
 }
 
+.lab-content {
+    width: 100%;
+}
+
 .lab-pane .topic {
     font-size: 24px;
     margin: 20px 0;
@@ -152,6 +156,7 @@ body {
 }
 
 .lab-pane .description {
+    width: 80%;
     margin: 15px 0;
     font-size: 18px;
     line-height: 1.5;
