@@ -1,0 +1,44 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #d24136;
+    padding: 20px;
+}
+
+.header .title {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header .title h1, .header .title p {
+    margin-bottom: 15px;
+}
+
+.header .title p {
+    font-size: 20px;
+}
+
+.header .team {
+    display: flex;
+    text-align: center;
+    font-size: 16px;
+}
+
+.header .team div:nth-child(1),
+.header .team div:nth-child(2){
+    margin-right: 10px;
+}
+
+.header .team img {
+    width: 150px;
+}
