@@ -126,13 +126,10 @@ body {
 }
 
 .tab-pane .lab-nav {
-    width: 30%;
+    margin-right: 40px;
+    min-width: fit-content;
     display: flex;
     flex-direction: column;
-}
-
-.lab-content {
-    width: 70%;
 }
 
 .lab-pane .topic {
