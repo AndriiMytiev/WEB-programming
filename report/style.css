@@ -105,9 +105,9 @@ body {
     min-height: 400px;
 }
 
-.tabs-content .toBeContinued {
-    justify-self: center;
-    align-self: center;
+.tab-pane.toBeContinued {
+    justify-content: center;
+    align-items: center;
 }
 
 .tabs-content .tab-pane,
@@ -117,7 +117,6 @@ body {
 
 .tabs-content .active {
     display: flex;
-    justify-content: start;
 }
 
 .lab-content .active {
