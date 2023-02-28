@@ -24,7 +24,8 @@ body {
     align-items: center;
 }
 
-.header .title h1, .header .title p {
+.header .title h1,
+.header .title p {
     margin-bottom: 15px;
 }
 
@@ -39,7 +40,7 @@ body {
 }
 
 .team div:nth-child(1),
-.team div:nth-child(2){
+.team div:nth-child(2) {
     margin-right: 10px;
 }
 
@@ -72,6 +73,7 @@ body {
     line-height: 1.2;
 }
 
+
 .tab-pane .lab-nav a {
     text-decoration: none;
     padding: 10px 20px;
@@ -84,7 +86,7 @@ body {
 }
 
 .navigation .tab-nav a.active,
-.lab-nav a.active{
+.lab-nav a.active {
     background-color: rgb(220, 173, 85);
     color: #fff; !important;
     transition: 0.2s;
@@ -96,9 +98,9 @@ body {
 }
 
 .tabs-content {
+    padding: 20px;
     background-color: #ebb582;
     border-radius: 10px;
-    padding: 20px;
 }
 
 .tabs-content .tab-pane {
@@ -111,12 +113,13 @@ body {
 }
 
 .tabs-content .tab-pane,
-.lab-content .lab-pane{
+.lab-content .lab-pane {
     display: none;
 }
 
 .tabs-content .active {
     display: flex;
+    align-items: start;
 }
 
 .lab-content .active {
@@ -176,4 +179,25 @@ body {
     margin: 50px auto 0;
     display: flex;
     justify-content: space-around;
+}
+
+#lab2-part2 ul {
+    padding-left: 25px;
+}
+
+#lab2-part2 ul li {
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+#lab2-part2 ul li p {
+    margin-bottom: 5px;
+}
+
+.font-weight-normal {
+    font-weight: normal;
+}
+
+.mb-15 {
+    margin-bottom: 15px;
 }

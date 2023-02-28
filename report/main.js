@@ -4,20 +4,18 @@ $(document).ready(function() {
         $(this).addClass('active');
 
         $(".tab-pane").removeClass("active");
-        console.log($(this).attr("href"))
         $($(this).attr("href")).addClass("active");
-
         return false;
     });
 
-    $('.lab-nav a').on('click', function(){
-        $('.lab-nav a').removeClass('active');
-        $(this).addClass('active');
+    for (let i = 1; i < 10 ; i++) {
+        $(`#lab${i} .lab-nav a`).on('click', function(){
+            $(`#lab${i} .lab-nav a`).removeClass('active');
+            $(this).addClass('active');
 
-        $(".lab-pane").removeClass("active");
-        console.log($(this).attr("href"))
-        $($(this).attr("href")).addClass("active");
-
-        return false;
-    });
+            $(`#lab${i} .lab-pane`).removeClass("active");
+            $($(this).attr("href")).addClass("active");
+            return false;
+        });
+    }
 });

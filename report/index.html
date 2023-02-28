@@ -52,18 +52,18 @@
     <div class="tabs-content">
         <div class="tab-pane active" id="lab1">
             <div class="lab-nav">
-                <a href="#part1" class="active">
+                <a href="#lab1-part1" class="active">
                     Тема, мета, місце розташування WEB-застосунка та місце звітного
                     HTML-документу;
                 </a>
-                <a href="#part2">Опис предметного середовища</a>
-                <a href="#part3">Поточний HTML-код головної сторінки WEB-застосунка</a>
-                <a href="#part4">Зовнішний вигляд головної сторінки власного WEB-застосунка</a>
-                <a href="#part5">Висновки</a>
-                <a href="#part6">Виконавці</a>
+                <a href="#lab1-part2">Опис предметного середовища</a>
+                <a href="#lab1-part3">Поточний HTML-код головної сторінки WEB-застосунка</a>
+                <a href="#lab1-part4">Зовнішний вигляд головної сторінки власного WEB-застосунка</a>
+                <a href="#lab1-part5">Висновки</a>
+                <a href="#lab1-part6">Виконавці</a>
             </div>
             <div class="lab-content">
-                <div class="lab-pane active" id="part1">
+                <div class="lab-pane active" id="lab1-part1">
                     <h2>
                         <a href="https://andriimytiev.github.io/WEB-programming/lab1/" target="_blank">Посилання</a>
                         на лабораторну роботу 1.
@@ -91,7 +91,7 @@
                         </a>(посилання).
                     </h3>
                 </div>
-                <div class="lab-pane" id="part2">
+                <div class="lab-pane" id="lab1-part2">
                     <h2>Опис предметного середовища: </h2>
                     <p class="description">
                         Наш інтернет-магазин реалізує основні можливості популярних інтернет-магазинів, наприклад
@@ -107,16 +107,16 @@
                         </a>(посилання).
                     </h3>
                 </div>
-                <div class="lab-pane" id="part3">
+                <div class="lab-pane" id="lab1-part3">
                     <div class="code-images">
                         <img src="images/lab1/code1.png" alt="code">
                         <img src="images/lab1/code2.png" alt="code">
                     </div>
                 </div>
-                <div class="lab-pane" id="part4">
+                <div class="lab-pane" id="lab1-part4">
                     <img src="images/lab1/main-page.png" alt="main-page">
                 </div>
-                <div class="lab-pane" id="part5">
+                <div class="lab-pane" id="lab1-part5">
                     <h2>Висновки: </h2>
                     <p class="description">
                         Виконавши лабораторну роботу ми придбали практичні навички роботи з HTML-документом, таблицями,
@@ -126,7 +126,7 @@
                         Створили початкову головну сторінку для нашого веб-застосунку.
                     </p>
                 </div>
-                <div class="lab-pane" id="part6">
+                <div class="lab-pane" id="lab1-part6">
                     <div class="team">
                         <div>
                             <img src='./images/team/Andrii.png' alt="Andrii">
@@ -146,7 +146,153 @@
         </div>
 
         <div class="tab-pane toBeContinued" id="lab2">
-            <h1>Лабораторна робота 2 в процесі виконання...</h1>
+            <div class="lab-nav">
+                <a href="#lab2-part1" class="active">
+                    Тема, мета, місце розташування WEB-застосунка та місце звітного
+                    HTML-документу;
+                </a>
+                <a href="#lab2-part2">Способи підключення стилів</a>
+                <a href="#lab2-part3">Селектор тегу</a>
+                <a href="#lab2-part4">Селектор класу</a>
+                <a href="#lab2-part5">Селектор ідентифікатора</a>
+                <a href="#lab2-part6">Інші селектори</a>
+                <a href="#lab2-part7">CSS Просунутий: шрифти, текст, таблиці, фон, контур, списки </a>
+                <a href="#lab2-part8">Висновки</a>
+            </div>
+
+            <div class="lab-content">
+                <div class="lab-pane active" id="lab2-part1">
+                    <h2>
+                        <a href="https://andriimytiev.github.io/WEB-programming/lab2/" target="_blank">Посилання</a>
+                        на лабораторну роботу 2.
+                    </h2>
+                    <p class="topic">
+                        <span>Тема:</span> каскадні таблиці стилів. селектори .ідентифікатори. стильове оформлення
+                        текстових елементів в html-документах.
+                    </p>
+
+                    <p class="goal">
+                        <span>Мета:</span> придбати практичні навички роботи з селекторами, ідентифікаторами,
+                        списками, різноманітними властивостями кольору і фону, зовнішними та
+                        внутрішними відступами, плаваючими елементами, оформленням текстових
+                        елементів
+                    </p>
+
+                    <h3 class="git-link">Веб-застосунок розташований на платформі
+                        <a href="https://github.com/AndriiMytiev/WEB-programming" target="_blank">
+                            Github
+                        </a>(посилання).
+                    </h3>
+                    <h3 class="git-link">Звітній HTML-документ розташований на платформі
+                        <a href="https://github.com/AndriiMytiev/WEB-programming/tree/main/report" target="_blank">
+                            Github
+                        </a>(посилання).
+                    </h3>
+                </div>
+
+                <div class="lab-pane" id="lab2-part2">
+                    <h2>Для того, щоб застосувати стилі до HTML-документу, ми можемо обрати один з чотирьох способів,
+                        або ж комбінувати їх:</h2>
+                    <ul>
+                        <li>
+                            <p>застосувати зовнішні стилі за допомогою елемента link:</p>
+                            <img src="./images/lab2/part2.1.png" alt="part2.1" width="664">
+                        </li>
+
+                        <li>
+                            <p>додати CSS-блок за допомогою елемента style:</p>
+                            <img src="./images/lab2/part2.2.png" alt="part2.2" width="316">
+                        </li>
+
+                        <li>
+                            <p>
+                                вказати стиль конкретному HTML-елементу за допомогою HTML-атрибуту style (т.з.
+                                inline-стилі):
+                            </p>
+                            <img src="./images/lab2/part2.3.png" alt="part2.3" width="657">
+                        </li>
+
+                        <li>
+                            <p>використати @import:</p>
+                            <img src="./images/lab2/part2.4.png" alt="part2.4" width="361">
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="lab-pane" id="lab2-part3">
+                    <h2 class="font-weight-normal mb-15">
+                        Селектори тега - це вибірка елементів за іменами їх тегів: h1, p,
+                        img, a і т. д.
+                    </h2>
+                    <img src="./images/lab2/part3.png" alt="part3" width="1000px">
+                </div>
+
+                <div class="lab-pane" id="lab2-part4">
+                    <h2 class="font-weight-normal mb-15">
+                        У HTML документі, селектори CSS класу знаходять елементи з потрібним класом. Атрибут класу
+                        визначається як розділений пробілами список елементів, і один із цих пунктів повинен точно
+                        відповідати імені класу, наведеному у селекторі.
+                    </h2>
+                    <img src="./images/lab2/part4.png" alt="part4">
+                </div>
+
+                <div class="lab-pane" id="lab2-part5">
+                    <h2 class="font-weight-normal mb-15">
+                        У HTML-документах CSS-селектори ID виробляють вибірку всіх елементів ID, повністю збігаються з
+                        селектором.
+                    </h2>
+                    <img src="./images/lab2/part5.png" alt="part5">
+                </div>
+
+                <div class="lab-pane" id="lab2-part6">
+                    <h2 class="font-weight-normal mb-15">
+                        Дочірні селектори: дочірнім називається елемент, який безпосередньо розташовується всередині
+                        батьківського елементу.
+                    </h2>
+                    <img src="./images/lab2/part6.1.png" alt="part6.1" class="mb-15">
+
+                    <h2 class="font-weight-normal mb-15">
+                        Зірочка (*) – універсальний селектор для CSS. Відповідає будь-якому тегу.
+                    </h2>
+                    <img src="./images/lab2/part6.2.png" alt="part6.2">
+                </div>
+
+                <div class="lab-pane" id="lab2-part7">
+                    <h2 class="font-weight-normal mb-15">
+                        Шрифти:
+                    </h2>
+                    <img src="./images/lab2/part7.1.png" alt="part7.1" class="mb-15">
+
+                    <h2 class="font-weight-normal mb-15">
+                        Текст:
+                    </h2>
+                    <img src="./images/lab2/part7.2.png" alt="part7.2" class="mb-15">
+
+                    <h2 class="font-weight-normal mb-15">
+                        Фон:
+                    </h2>
+                    <img src="./images/lab2/part7.3.png" alt="part7.3" class="mb-15" width="1000px">
+
+                    <h2 class="font-weight-normal mb-15">
+                        Контур:
+                    </h2>
+                    <img src="./images/lab2/part7.4.png" alt="part7.4" class="mb-15">
+
+                    <h2 class="font-weight-normal mb-15">
+                        Списки (взято із звіту):
+                    </h2>
+                    <img src="./images/lab2/part7.5.png" alt="part7.5">
+                </div>
+
+                <div class="lab-pane" id="lab2-part8">
+                    <h2>Висновки: </h2>
+                    <p class="description">
+                        Виконавши лабораторну роботу ми придбали практичні навички роботи з селекторами,
+                        ідентифікаторами, списками, різноманітними властивостями кольору і фону, зовнішними та
+                        внутрішними відступами, плаваючими елементами, оформленням текстових елементів
+                    </p>
+                </div>
+            </div>
         </div>
 
         <div class="tab-pane toBeContinued" id="lab3">
