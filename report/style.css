@@ -119,7 +119,6 @@ body {
 
 .tabs-content .active {
     display: flex;
-    align-items: start;
 }
 
 .lab-content .active {
