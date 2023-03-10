@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="dac42023-a134-4bbb-84bc-924c57b593e1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/task2/task2.1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task2/task2.2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task2/task2.3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task2/task2.4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task2/task2.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../lab1/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab2/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../lab2/style.css" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2MjqNZoPBhUHYsIoO9SYCOcXBJd" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Головне/КПІ/3Курс/2 семестр/3. WEB/WEB-programming/lab3/task3/FilianinNikita/images&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Головне\КПІ\3Курс\2 семестр\3. WEB\WEB-programming\lab3\task3\FilianinNikita\images" />
+      <recent name="D:\Головне\КПІ\3Курс\2 семестр\3. WEB\WEB-programming\lab3\task3\YaremchukDenis\images" />
+      <recent name="D:\Головне\КПІ\3Курс\2 семестр\3. WEB\WEB-programming\lab3\task3\YaremchukDenis" />
+      <recent name="D:\Головне\КПІ\3Курс\2 семестр\3. WEB\WEB-programming\lab3\task3\FilianinNikita" />
+      <recent name="D:\Головне\КПІ\3Курс\2 семестр\3. WEB\WEB-programming\lab3\task2" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Головне\КПІ\3Курс\2 семестр\3. WEB\WEB-programming\lab3\task3\FilianinNikita\images" />
+      <recent name="D:\Головне\КПІ\3Курс\2 семестр\3. WEB\WEB-programming\lab3\task3\YaremchukDenis\images" />
+      <recent name="D:\Головне\КПІ\3Курс\2 семестр\3. WEB\WEB-programming\lab3\task3" />
+      <recent name="D:\Головне\КПІ\3Курс\2 семестр\3. WEB\WEB-programming\lab3\task2" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.index.html">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/lab3/task3/YaremchukDenis/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="task2.1.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/lab3/task2/task2.1.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.html" />
+        <item itemvalue="JavaScript Debug.task2.1.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dac42023-a134-4bbb-84bc-924c57b593e1" name="Changes" comment="" />
+      <created>1678291299599</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1678291299599</updated>
+      <workItem from="1678291301128" duration="5565000" />
+      <workItem from="1678348861894" duration="849000" />
+      <workItem from="1678382905422" duration="11000" />
+      <workItem from="1678435790325" duration="11527000" />
+      <workItem from="1678451131256" duration="354000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
