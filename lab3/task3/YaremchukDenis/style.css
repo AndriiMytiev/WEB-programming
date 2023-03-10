@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, serif;
+}
+
+.header-title {
+    margin: 20px auto;
+    width: fit-content;
+    padding: 10px 20px;
+    background-color: #ffbc40;
+}
+
+.header-title h1 {
+    font-size: 68px;
+}
+
+.header-container,
+.main-container {
+    width: 1440px;
+    margin: auto;
+    padding: 30px 0;
+}
+
+.header-container ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.header-container ul li {
+    width: 300px;
+    box-sizing: border-box;
+    padding: 10px 20px 10px 40px;
+    position: relative;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #ffbc40;
+    line-height: 1.5;
+}
+
+.header-container ul li:before {
+    content: "";
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: black;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
+
+.main-title {
+    font-size: 55px;
+    margin-bottom: 50px;
+}
+
+.main .types {
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main .type-element {
+    width: 320px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.main .type-element h2 {
+    line-height: 1.5;
+}
+
+.main .type-element p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 15px 0;
+}
+
+.main .element-number {
+    margin-bottom: 30px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #ffbc40;
+}
+
+.main .element-info {
+    padding: 25px;
+}
+
+.main .levels {
+    display: flex;
+}
+
+.main .levels .level-img {
+    padding: 0 50px;
+}
+
+.main .level-img img {
+   width: 750px;
+}
+
+.main .level-text {
+    padding-left: 30px;
+}
+
+.main .level-text h2 {
+    margin-bottom: 10px;
+}
+
+.main .level-text p {
+    line-height: 1.5;
+    font-size: 18px;
+}
+
+.footer-container {
+    width: 1440px;
+    margin: auto;
+    display: flex;
+}
+
+.footer .footer-bar {
+    width: 70%;
+    margin-right: 25px;
+    height: 60px;
+    color: white;
+    font-size: 18px;
+    padding-left: 60px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+
+.footer .socials-block {
+    width: 30%;
+    display: flex;
+}
+
+.footer .social {
+    margin-right: 25px;
+    width: 60px;
+    height: 60px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer .social:last-child {
+    margin: 0;
+}
