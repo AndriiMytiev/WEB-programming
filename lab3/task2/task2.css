@@ -1,0 +1,203 @@
+body {
+    height: 100vh;
+}
+
+/* Table fix */
+.table-fix,
+.table-fix tr,
+.table-fix td {
+    border: 1px solid black;
+    /*border-spacing: 0;*/
+}
+.table-fix td {
+    border-spacing: 20px;
+}
+.table-fix tr {
+    height: 70px;
+}
+
+.table-fix .tr-fix.yellow {
+    background-color: yellow;
+    width: 100%;
+}
+
+.table-fix .td-fix-small {
+    width: 50px ;
+}
+
+.table-fix .td-fix-large {
+    width: 100px;
+    height: 300px;
+}
+
+.table-fix .td-fix-large.red {
+    background-color: red;
+}
+
+.table-fix .td-fix-large.blue {
+    background-color: blue;
+}
+
+.table-fix .td-fix-large.white {
+    background-color: white;
+}
+
+.table-fix .white-block {
+    margin-left: 20px;
+    width: 130px;
+    height: 30px;
+    border: 1px solid black;
+    background-color: white;
+}
+
+/* Table flex */
+.table-flex {
+    width: 30%;
+    height: 70%
+}
+
+.table-flex,
+.table-flex tr,
+.table-flex td {
+    border: 1px solid black;
+    border-spacing: 0.4vh;
+}
+.table-flex td {
+    border-spacing: 20px;
+}
+.table-flex tr {
+    height: 80px;
+}
+
+.table-flex .tr-flex.yellow {
+    background-color: yellow;
+    width: 100%;
+}
+
+.table-flex .td-flex-small {
+    width: 50px ;
+}
+
+.table-flex .td-flex-large {
+    width: 100px;
+    height: 300px;
+}
+
+.table-flex .td-flex-large.red {
+    background-color: red;
+}
+
+.table-flex .td-flex-large.blue {
+    background-color: blue;
+}
+
+.table-flex .td-flex-large.white {
+    background-color: white;
+}
+
+.table-flex .white-block {
+    margin-left: 5%;
+    width: 30%;
+    height: 30%;
+    border: 1px solid black;
+    background-color: white;
+}
+
+/* Float fix */
+.fix-container {
+    width: 450px;
+}
+
+.fix-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.fix-yellow {
+    width: 100%;
+    height: 70px;
+    background-color: yellow;
+    border: 1px solid black;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+}
+
+.fix-red,
+.fix-blue,
+.fix-white {
+    width: 100px;
+    height: 300px;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+.fix-red {
+    background-color: red;
+}
+
+.fix-blue {
+    background-color: blue;
+}
+
+.fix-white {
+    background-color: white;
+}
+
+.fix-white-small {
+    margin-left: 20px;
+    width: 130px;
+    height: 30px;
+    border: 1px solid black;
+    background-color: white;
+}
+
+/* Float flex */
+
+.flex-container {
+    width: 30%;
+}
+
+.flex-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-yellow {
+    width: 100%;
+    height: 10vh;
+    background-color: yellow;
+    border: 1px solid black;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+}
+
+.flex-red,
+.flex-blue,
+.flex-white {
+    width: 23%;
+    height: 40vh;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+.flex-red {
+    background-color: red;
+}
+
+.flex-blue {
+    background-color: blue;
+}
+
+.flex-white {
+    background-color: white;
+}
+
+.flex-white-small {
+    margin-left: 5%;
+    width: 30%;
+    height: 4vh;
+    border: 1px solid black;
+    background-color: white;
+}
