@@ -2,7 +2,7 @@ body {
     height: 100vh;
 }
 
-/* Table fix */
+/* TASK 1 */
 .table-fix,
 .table-fix tr,
 .table-fix td {
@@ -50,7 +50,7 @@ body {
     background-color: white;
 }
 
-/* Table flex */
+/* TASK 2 */
 .table-flex {
     width: 30%;
     height: 70%
@@ -103,7 +103,7 @@ body {
     background-color: white;
 }
 
-/* Float fix */
+/* TASK 3 */
 .fix-container {
     width: 450px;
 }
@@ -152,8 +152,7 @@ body {
     background-color: white;
 }
 
-/* Float flex */
-
+/* TASK 4 */
 .flex-container {
     width: 30%;
 }

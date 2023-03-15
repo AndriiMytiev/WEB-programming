@@ -4,28 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dac42023-a134-4bbb-84bc-924c57b593e1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/task3/MytievAndrii/images/img7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task3/MytievAndrii/images/logo1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task3/MytievAndrii/images/logo3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task3/MytievAndrii/images/logo4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task3/MytievAndrii/images/logo5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task3/MytievAndrii/images/logo6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task3/MytievAndrii/images/logo7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task3/MytievAndrii/images/logo8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task3/MytievAndrii/images/social1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task3/MytievAndrii/images/social2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task3/MytievAndrii/images/social3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task3/MytievAndrii/images/social4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task3/MytievAndrii/images/social5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task3/MytievAndrii/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task3/MytievAndrii/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task3/MytievAndrii/images/img1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task3/MytievAndrii/images/img2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task3/MytievAndrii/images/img3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task3/MytievAndrii/images/img4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task3/MytievAndrii/images/img5.jpg" beforeDir="false" />
-    </list>
+    <list default="true" id="dac42023-a134-4bbb-84bc-924c57b593e1" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -117,7 +96,7 @@
       <workItem from="1678562768960" duration="18000" />
       <workItem from="1678699775374" duration="9000" />
       <workItem from="1678876753803" duration="1262000" />
-      <workItem from="1678878117305" duration="5258000" />
+      <workItem from="1678878117305" duration="5515000" />
     </task>
     <servers />
   </component>
