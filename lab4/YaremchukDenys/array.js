@@ -38,15 +38,14 @@ function max_even_min_even_indeces(array) {
 }
 
 function sort_array(array) {
-  let minIndex = 0;
-  for (let i = 0; i < array.length - 1; i++) {
-    minIndex = i;
-    for (let j = i + 1; j < array.length; j++) {
-      if (array[j] < array[minIndex]) {
-        minIndex = j;
-      }
+  for (let i = 1; i < array.length; i++) {
+    let elem_i = array[i];
+    let j = i - 1;
+    while(elem_i < array[j] && j >= 0){
+      array[j + 1] = array[j];
+      j--;
     }
-    swap_in_array(i, minIndex, array);
+    array[j + 1] = elem_i;
   }
 }
 
