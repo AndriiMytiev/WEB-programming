@@ -2,27 +2,27 @@ const navList = [
     {
         id: 1,
         title: 'Головна',
-        link: './main.html'
+        link: './pages/main.html'
     },
     {
         id: 2,
         title: 'Про нас',
-        link: './about.html'
+        link: './pages/about.html'
     },
     {
         id: 3,
         title: 'Новини',
-        link: './news.html'
+        link: './pages/news.html'
     },
     {
         id: 4,
         title: 'Послуги',
-        link: './services.html'
+        link: './pages/services.html'
     },
     {
         id: 5,
         title: 'Продукти',
-        link: './products.html'
+        link: './pages/products.html'
     },
 ];
 
@@ -30,17 +30,17 @@ const subNavList = [
     {
         id: 1,
         title: 'Історія',
-        link: './history.html'
+        link: './pages/history.html'
     },
     {
         id: 2,
         title: 'Команда',
-        link: './team.html'
+        link: './pages/team.html'
     },
     {
         id: 3,
         title: 'Контакти',
-        link: './contacts.html'
+        link: './pages/contacts.html'
     }]
 
 const createList = (array) => {
